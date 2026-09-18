@@ -1,7 +1,7 @@
 import type { FAQ, VisitorType, ExperienceCard } from "./types";
 import { SIGNATURE_EXPERIENCE_PATH } from "./signature-experience";
 
-export const homepageTagline = "The Gateway to Tuscany & Cinque Terre";
+export const homepageTagline = "Your Gateway to Tuscany";
 
 export const visitorTypes: VisitorType[] = [
   {

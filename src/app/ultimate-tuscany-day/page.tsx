@@ -2,7 +2,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/site";
 
 const TITLE = "🏆 Ultimate Tuscany Day";
-const BODY = "Our Signature Experience for Livorno cruise passengers — Florence and Pisa in one carefully planned day, maximum 8 guests, timed for your ship with return-to-ship confidence. Production route recovered.";
+const BODY = "Florence and Pisa in one unhurried day \u2014 the experience our editors would genuinely recommend to a first-time cruise passenger wanting the very best of Tuscany.";
 
 export const metadata = {
   title: TITLE + " | " + SITE.name,
