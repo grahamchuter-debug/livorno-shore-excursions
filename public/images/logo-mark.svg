@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Genoa Shore Excursions">
+  <defs>
+    <linearGradient id="riviera-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a4576"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="riviera-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#155e75"/>
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="40" fill="url(#riviera-sky)"/>
+  <path fill="url(#riviera-sea)" d="M0 52 Q20 46 40 50 T80 48 V80 H0 Z"/>
+  <path fill="#f97316" d="M28 38 L52 38 L48 52 L32 52 Z"/>
+  <path fill="#fde68a" d="M30 34 L50 34 L48 38 L32 38 Z"/>
+  <circle cx="58" cy="28" r="6" fill="#fde68a" opacity="0.9"/>
+  <path stroke="#fff" stroke-width="1.5" fill="none" d="M12 44 Q24 40 36 42" opacity="0.6"/>
+</svg>

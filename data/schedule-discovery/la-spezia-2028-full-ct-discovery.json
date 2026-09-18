@@ -1,0 +1,1105 @@
+{
+  "port": "la-spezia",
+  "year": 2028,
+  "wave": "wave-0b",
+  "note": "Internal CT discovery only — not for public publish without validation",
+  "total": 110,
+  "breakdown": {
+    "approved_strong_line_ct": 12,
+    "tier2_cruise_line_confirmed": 4,
+    "restricted_unvalidated": 94
+  },
+  "validatedCount": 16,
+  "heldCount": 94,
+  "filterDecision": "PUBLISH",
+  "filterReason": "validated 16 >= MIN_PUBLISH_ROWS 15 — publish validated only; held 94 restricted/unvalidated",
+  "calls": [
+    {
+      "date": "2028-03-10",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-03-31",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "08:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Seven Seas Voyager",
+      "cruiseLine": "Regent Seven Seas Cruises",
+      "arrival": "07:00",
+      "departure": "22:00",
+      "callType": "Port of call",
+      "timeInPort": "15h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-04-12",
+      "ship": "Azamara Journey",
+      "cruiseLine": "Azamara Cruises",
+      "arrival": "08:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-04-12",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-04-13",
+      "ship": "Oceania Allura",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-04-19",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-04-21",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-04-25",
+      "ship": "Azamara Quest",
+      "cruiseLine": "Azamara Cruises",
+      "arrival": "08:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-04-30",
+      "ship": "Oceania Vista",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "13h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-05-01",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-02",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-07",
+      "ship": "Scarlet Lady",
+      "cruiseLine": "Virgin Voyages",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "tier2_cruise_line_confirmed"
+    },
+    {
+      "date": "2028-05-08",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-09",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-12",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-15",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-15",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-16",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-22",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-23",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-23",
+      "ship": "Valiant Lady",
+      "cruiseLine": "Virgin Voyages",
+      "arrival": "09:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "tier2_cruise_line_confirmed"
+    },
+    {
+      "date": "2028-05-25",
+      "ship": "AIDAprima",
+      "cruiseLine": "AIDA",
+      "arrival": "09:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-29",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-29",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-05-29",
+      "ship": "Oceania Allura",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "13h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-05-30",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-01",
+      "ship": "SeaDream II",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-02",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-05",
+      "ship": "Azamara Onward",
+      "cruiseLine": "Azamara Cruises",
+      "arrival": "08:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-05",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-06",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-06",
+      "ship": "Valiant Lady",
+      "cruiseLine": "Virgin Voyages",
+      "arrival": "08:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "tier2_cruise_line_confirmed"
+    },
+    {
+      "date": "2028-06-12",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-12",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-13",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-19",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-20",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-23",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-26",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-26",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-27",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-06-28",
+      "ship": "Queen Elizabeth",
+      "cruiseLine": "Cunard Line",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-03",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-04",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-10",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-10",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-11",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-14",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-17",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-18",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-19",
+      "ship": "Queen Elizabeth",
+      "cruiseLine": "Cunard Line",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-24",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-24",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-25",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-25",
+      "ship": "SeaDream I",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-07-29",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas Cruises",
+      "arrival": "07:00",
+      "departure": "20:00",
+      "callType": "Port of call",
+      "timeInPort": "13h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-07-31",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-01",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-04",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-07",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-07",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-08",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-09",
+      "ship": "Queen Elizabeth",
+      "cruiseLine": "Cunard Line",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-14",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-15",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-18",
+      "ship": "Britannia",
+      "cruiseLine": "P & O Cruises",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-21",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-21",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-22",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-25",
+      "ship": "SeaDream II",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-25",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-28",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-29",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-08-30",
+      "ship": "Queen Elizabeth",
+      "cruiseLine": "Cunard Line",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-01",
+      "ship": "Seven Seas Explorer",
+      "cruiseLine": "Regent Seven Seas Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-09-04",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-04",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-05",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-09",
+      "ship": "Ventura",
+      "cruiseLine": "P & O Cruises",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-11",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-12",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-12",
+      "ship": "Valiant Lady",
+      "cruiseLine": "Virgin Voyages",
+      "arrival": "09:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "tier2_cruise_line_confirmed"
+    },
+    {
+      "date": "2028-09-15",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "",
+      "callType": "Port of call",
+      "notes": "overnight/next-day timing",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-18",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-18",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-19",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-20",
+      "ship": "Queen Elizabeth",
+      "cruiseLine": "Cunard Line",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-24",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-09-25",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-09-26",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-02",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-03",
+      "ship": "Azamara Quest",
+      "cruiseLine": "Azamara Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-03",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-06",
+      "ship": "Oceania Allura",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-10-06",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "callType": "Port of call",
+      "timeInPort": "12h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-09",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-10",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-10",
+      "ship": "SeaDream I",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-11",
+      "ship": "SeaDream II",
+      "cruiseLine": "SeaDream Yacht Club",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-11",
+      "ship": "Seven Seas Voyager",
+      "cruiseLine": "Regent Seven Seas Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "approved_strong_line_ct"
+    },
+    {
+      "date": "2028-10-16",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-16",
+      "ship": "MSC Magnifica",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "10h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-17",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-20",
+      "ship": "Britannia",
+      "cruiseLine": "P & O Cruises",
+      "arrival": "",
+      "departure": "",
+      "callType": "Port of call",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-24",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-30",
+      "ship": "AIDAcosma",
+      "cruiseLine": "AIDA",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-10-31",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    },
+    {
+      "date": "2028-11-07",
+      "ship": "MSC World Europa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "18:00",
+      "callType": "Port of call",
+      "timeInPort": "11h",
+      "validationClass": "restricted_unvalidated"
+    }
+  ]
+}

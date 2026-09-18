@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-17T20:41:36.999Z",
+  "wave": "wave-0",
+  "port": "la-spezia",
+  "source": "mediterranean-shore-excursion/data/ship-schedules/parsed/la-spezia.json",
+  "sourceClass": "cruisetimetables-planning-archive",
+  "hierarchyNote": "Official port/line records win when available; none applied this wave.",
+  "h1_2026": "absent — workbook acquisition started 2026-07; CT H1 reacquisition blocked (403/429)",
+  "counts": {
+    "2026": 104,
+    "2027": 217,
+    "2028": 110,
+    "total": 431,
+    "strongLine2028": 12
+  },
+  "publishDecision2028": "Published full CT future-itinerary set with honest wording — strong-line-only below MIN_PUBLISH≈15",
+  "customerWording": {
+    "partialYear": "The currently published schedule covers verified calls available to us and will be updated as additional port information is confirmed.",
+    "future2028": "This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details."
+  },
+  "placeholderRemoved": true,
+  "terminalPolicy": "no generic terminal values"
+}

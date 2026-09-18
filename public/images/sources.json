@@ -1,0 +1,21 @@
+{
+  "generated": "2026-07-09T00:00:00.000Z",
+  "site": "laspeziashoreexcursions.com",
+  "files": [
+    "hero-home.jpg",
+    "og-default.jpg",
+    "cruise-port.jpg",
+    "riviera-coast.jpg",
+    "portofino.jpg",
+    "photography.jpg",
+    "camogli.jpg",
+    "food.jpg",
+    "train.jpg",
+    "family.jpg",
+    "compare.jpg",
+    "beach.jpg",
+    "ferry.jpg"
+  ],
+  "failed": [],
+  "notes": "Filename portofino.jpg maps to Florence imagery; riviera-coast.jpg maps to Cinque Terre. Replace with destination-specific photography when available."
+}

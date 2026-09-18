@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-09-17T22:03:22.650Z",
+  "wave": "wave-1b",
+  "port": "livorno",
+  "destSlug": "livorno",
+  "displayName": "Livorno",
+  "portIdentityNote": "Livorno ≠ La Spezia ≠ Florence/Pisa as schedule ports",
+  "minPublishRows": 15,
+  "counts": {
+    "2026": 201,
+    "2027": 359,
+    "2028_discovery": 187,
+    "2028_published": 29,
+    "public_total": 589
+  },
+  "partial2026": true,
+  "filter2028": {
+    "decision": "PUBLISH",
+    "reason": "validated 29 >= MIN_PUBLISH_ROWS 15 — publish validated only; held 158 restricted/unvalidated",
+    "validatedCount": 29,
+    "tier2VirginSantorini": 0
+  },
+  "timeCompleteness": {
+    "2026": {
+      "total": 201,
+      "arrival": 162,
+      "departure": 147,
+      "both": 147,
+      "neither": 39,
+      "pctBoth": 73.1
+    },
+    "2027": {
+      "total": 359,
+      "arrival": 269,
+      "departure": 237,
+      "both": 237,
+      "neither": 90,
+      "pctBoth": 66
+    },
+    "2028": {
+      "total": 29,
+      "arrival": 29,
+      "departure": 28,
+      "both": 28,
+      "neither": 0,
+      "pctBoth": 96.6
+    }
+  },
+  "berthPolicy": "unknown — no generic terminals",
+  "placeholderPurged": true
+}

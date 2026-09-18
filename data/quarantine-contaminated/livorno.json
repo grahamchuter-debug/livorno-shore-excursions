@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2026-04-08",
+    "ship": "MSC Splendida",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-04-15",
+    "ship": "Costa Smeralda",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-05-06",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:30",
+    "departure": "18:30",
+    "timeInPort": "11h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-05-20",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-06-03",
+    "ship": "Royal Caribbean Odyssey",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-06-17",
+    "ship": "MSC Seaview",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-01",
+    "ship": "Celebrity Edge",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:30",
+    "departure": "17:30",
+    "timeInPort": "10h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-15",
+    "ship": "Costa Diadema",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-05",
+    "ship": "Viking Venus",
+    "cruiseLine": "Viking Ocean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-19",
+    "ship": "MSC Grandiosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-02",
+    "ship": "Norwegian Dawn",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-16",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-07",
+    "ship": "Costa Fortuna",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "terminal": "Molo Garibaldi",
+    "callType": "Port of call"
+  }
+]
