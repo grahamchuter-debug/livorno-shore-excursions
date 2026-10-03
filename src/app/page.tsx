@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
+import { siteUrl } from "@/lib/paths";
 import { excursions } from "@/data/excursions";
+
+export const metadata = {
+  alternates: { canonical: siteUrl("/") },
+};
 
 export default function HomePage() {
   return (
