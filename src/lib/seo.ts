@@ -40,12 +40,15 @@ export function buildMetadata({
   noindex = false,
 }: PageSEO): Metadata {
   const url = absoluteUrl(SITE.url, path);
-  const ogTitle = fullTitle(title, path);
+  // Some data titles already end with the site name, which the layout's title template also appends.
+  const brandSuffix = ` | ${SITE.name}`;
+  const pageTitle = title.endsWith(brandSuffix) ? title.slice(0, -brandSuffix.length) : title;
+  const ogTitle = fullTitle(pageTitle, path);
   const ogImage = image ?? siteImages.ogDefault.src;
   const ogImageAlt = imageAlt ?? siteImages.ogDefault.alt;
 
   return {
-    title: path === "/" ? { absolute: ogTitle } : title,
+    title: path === "/" ? { absolute: ogTitle } : pageTitle,
     description,
     keywords: [
       "Livorno shore excursions",

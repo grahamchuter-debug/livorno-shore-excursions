@@ -3,7 +3,7 @@ import { SITE } from "@/lib/site";
 import { defaultOpenGraph } from "@/lib/seo";
 
 export const metadata = {
-  title: "About | " + SITE.name,
+  title: "About",
   description: SITE.description,
   alternates: { canonical: `${SITE.url}/about` },
   openGraph: { ...defaultOpenGraph, url: `${SITE.url}/about` },
