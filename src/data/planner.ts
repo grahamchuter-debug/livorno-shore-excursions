@@ -189,7 +189,6 @@ export function generateTuscanyPlan(input: PlannerInput): PlannerResult {
   const logistics: PlannerLink[] = [
     { label: "Ship Schedules", href: "/ship-schedules/livorno", why: "See which ships share your Livorno port day." },
     { label: "Florence or Pisa?", href: "/compare/florence-vs-pisa", why: "Honest comparison to help you choose." },
-    { label: "Small group vs coach", href: "/compare/small-group-vs-large-coach", why: "When The Wow Collection model beats a large coach." },
   ];
 
   const topExc = excursionLinks[0]?.label ?? theme.headline;

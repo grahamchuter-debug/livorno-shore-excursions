@@ -71,9 +71,11 @@ export function SignatureTuscanyFeature({ embedded = false }: { embedded?: boole
         )}
 
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href={SIGNATURE_EXPERIENCE_PATH} className="btn-accent">
-            {comingSoon ? "Learn more →" : `Discover ${signatureTuscanyExperience.title} →`}
-          </Link>
+          {!comingSoon && (
+            <Link href={SIGNATURE_EXPERIENCE_PATH} className="btn-accent">
+              {`Discover ${signatureTuscanyExperience.title} →`}
+            </Link>
+          )}
           {comingSoon && (
             <Link href="/enquire" className="btn-secondary">
               Register interest
