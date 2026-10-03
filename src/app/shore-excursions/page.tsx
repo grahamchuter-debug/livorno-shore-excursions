@@ -53,11 +53,11 @@ export default function ShoreExcursionsPage() {
           <Breadcrumbs items={breadcrumbs} />
           <p className="mt-6 text-gray-600">
             Not sure which destination? Start with our{" "}
-            <Link href="/compare/florence-vs-cinque-terre" className="font-semibold text-coastal-700 hover:underline">
-              Florence or Cinque Terre comparison
+            <Link href="/compare/florence-vs-pisa" className="font-semibold text-coastal-700 hover:underline">
+              Florence or Pisa comparison
             </Link>{" "}
             or the{" "}
-            <Link href="/compare/best-tuscany-shore-excursion" className="font-semibold text-coastal-700 hover:underline">
+            <Link href="/guides/best-tuscany-shore-excursions" className="font-semibold text-coastal-700 hover:underline">
               best excursion guide
             </Link>
             .

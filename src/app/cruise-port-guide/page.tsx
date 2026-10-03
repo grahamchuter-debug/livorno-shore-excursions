@@ -73,7 +73,7 @@ export default function CruisePortGuidePage() {
 
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             <Link href="/guides/florence-from-livorno" className="nav-card"><h3 className="font-display text-base font-bold text-gray-900">Florence guide</h3><p className="mt-1 text-sm text-gray-600">Renaissance capital 90 km inland.</p></Link>
-            <Link href="/guides/cinque-terre-from-livorno" className="nav-card"><h3 className="font-display text-base font-bold text-gray-900">Cinque Terre guide</h3><p className="mt-1 text-sm text-gray-600">Coastal villages by train from the port.</p></Link>
+            <Link href="/guides/pisa-from-livorno" className="nav-card"><h3 className="font-display text-base font-bold text-gray-900">Pisa guide</h3><p className="mt-1 text-sm text-gray-600">The Leaning Tower and the Field of Miracles.</p></Link>
             <Link href="/ship-schedules/livorno" className="nav-card"><h3 className="font-display text-base font-bold text-gray-900">Ship schedules</h3><p className="mt-1 text-sm text-gray-600">See who&apos;s in port before you book.</p></Link>
           </div>
 

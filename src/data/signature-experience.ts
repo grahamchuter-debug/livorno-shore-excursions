@@ -1,6 +1,6 @@
 import type { FAQ } from "./types";
 
-export const SIGNATURE_EXPERIENCE_PATH = "/signature-tuscany-experience";
+export const SIGNATURE_EXPERIENCE_PATH = "/ultimate-tuscany-day";
 
 export interface SignatureBenefit {
   emoji: string;
