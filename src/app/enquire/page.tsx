@@ -2,6 +2,7 @@ import { buildMetadata } from "@/lib/seo";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { EnquiryFormShell } from "@/components/EnquiryFormShell";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 const path = "/enquire";
@@ -26,21 +27,28 @@ export default function EnquirePage() {
       <section className="section-padding">
         <div className="container-wide max-w-xl">
           <Breadcrumbs items={breadcrumbs} />
-          <form className="mt-8 space-y-4" action="#" method="post">
+          <EnquiryFormShell
+            siteId="livorno"
+            fallbackEmail="hello@livornoshoreexcursions.com"
+            className="mt-8 space-y-4"
+            submitClassName="btn-primary"
+            submitLabel="Send enquiry"
+            successTitle="Thank you — we've received your enquiry"
+            successBody="We'll reply by email, usually within one working day."
+          >
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
-              <input id="name" name="name" type="text" required className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 text-sm" />
+              <input id="name" name="name" maxLength={100} autoComplete="name" type="text" required className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 text-sm" />
             </div>
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-              <input id="email" name="email" type="email" required className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 text-sm" />
+              <input id="email" name="email" maxLength={254} autoComplete="email" type="email" required className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 text-sm" />
             </div>
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-              <textarea id="message" name="message" rows={5} className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 text-sm" placeholder="Tell us about your Livorno port day — ship, hours ashore, interests and how we can help..." />
+              <textarea id="message" name="message" required maxLength={5000} rows={5} className="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 text-sm" placeholder="Tell us about your Livorno port day — ship, hours ashore, interests and how we can help..." />
             </div>
-            <button type="submit" className="btn-primary">Send enquiry</button>
-          </form>
+          </EnquiryFormShell>
         </div>
       </section>
     </>
