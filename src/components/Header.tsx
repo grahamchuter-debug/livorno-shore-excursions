@@ -8,7 +8,6 @@ const navItems = [
   { href: "/compare", label: "Compare" },
   { href: "/shore-excursions", label: "Excursions" },
   { href: "/guides", label: "Guides" },
-  { href: "/wow-collection", label: "Wow Collection" },
   { href: "/cruise-planner", label: "Planner" },
   { href: "/cruise-port-guide", label: "Port Guide" },
 ];

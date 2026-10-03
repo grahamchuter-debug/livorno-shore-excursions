@@ -5,7 +5,6 @@ const LINKS = [
   { href: "/cruise-planner", label: "Tuscany Cruise Planner" },
   { href: "/ship-schedules/livorno", label: "Ship Schedules" },
   { href: "/compare/florence-vs-cinque-terre", label: "Compare Tuscany" },
-  { href: "/wow-collection", label: "The Wow Collection" },
 ];
 
 export function PlanningLinks() {
