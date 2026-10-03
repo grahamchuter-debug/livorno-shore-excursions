@@ -1,10 +1,12 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/site";
+import { defaultOpenGraph } from "@/lib/seo";
 
 export const metadata = {
   title: "About | " + SITE.name,
   description: SITE.description,
   alternates: { canonical: `${SITE.url}/about` },
+  openGraph: { ...defaultOpenGraph, url: `${SITE.url}/about` },
 };
 
 export default function AboutPage() {

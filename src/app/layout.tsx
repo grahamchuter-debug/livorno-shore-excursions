@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { organizationSchema, websiteSchema, travelAgencySchema } from "@/lib/schema";
 import { SITE } from "@/lib/site";
-import { siteImages } from "@/lib/images";
+import { defaultOpenGraph } from "@/lib/seo";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -19,9 +19,7 @@ export const metadata: Metadata = {
     icon: [{ url: "/images/logo-mark.svg", type: "image/svg+xml" }],
     apple: [{ url: "/images/logo-mark.svg" }],
   },
-  openGraph: {
-    images: [{ url: siteImages.ogDefault.src, width: 1200, height: 630, alt: siteImages.ogDefault.alt }],
-  },
+  openGraph: defaultOpenGraph,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

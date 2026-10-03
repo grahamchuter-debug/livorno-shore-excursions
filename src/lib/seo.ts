@@ -11,6 +11,11 @@ import {
   getComparisonImage,
 } from "./images";
 
+/** Next.js replaces a parent's openGraph wholesale, so pages that set openGraph must spread this in. */
+export const defaultOpenGraph = {
+  images: [{ url: siteImages.ogDefault.src, width: 1200, height: 630, alt: siteImages.ogDefault.alt }],
+};
+
 export interface PageSEO {
   title: string;
   description: string;

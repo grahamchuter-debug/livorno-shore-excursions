@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
 import { siteUrl } from "@/lib/paths";
+import { defaultOpenGraph } from "@/lib/seo";
 import { excursions } from "@/data/excursions";
 
 export const metadata = {
   alternates: { canonical: siteUrl("/") },
+  openGraph: { ...defaultOpenGraph, url: siteUrl("/") },
 };
 
 export default function HomePage() {
